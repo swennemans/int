@@ -1,0 +1,39 @@
+{
+  "root": "src",
+  "devServer": {
+    "host": "localhost"
+  },
+  "hotMiddleware": {
+    "reload": true
+  },
+  "css" : {
+    "modules": true
+  },
+  "postcss": [
+    ["postcss-simple-vars", {
+      "variables": {
+        "$negative": "#FF1744",
+        "$positive": "#00E676",
+        "$main_dark": "#332732",
+        "$main_dark0": "#545454",
+        "$gray0": "#FAFAFA",
+        "$gray1": "#F5F5F5",
+        "$gray2": "#EEEEEE",
+        "$gray3": "#E0E0E0",
+        "$main_green": "#96BF0D"
+      }
+    }
+    ],
+    "postcss-import",
+    "postcss-nested",
+    "postcss-color-function",
+    "postcss-custom-media",
+    [
+      "rucksack-css",
+      {
+        "autoprefixer": true
+      }
+    ],
+    "lost"
+  ]
+}
