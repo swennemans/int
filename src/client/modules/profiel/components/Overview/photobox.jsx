@@ -5,7 +5,7 @@ const Photobox = ({image}) => (
       <img src={image} alt=""/>
     </div>
     <div className="profile-overview__photo__change">
-      EDI
+
     </div>
   </div>
 )

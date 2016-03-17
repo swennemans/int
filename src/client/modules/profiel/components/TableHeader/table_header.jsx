@@ -1,5 +1,7 @@
 import React from 'react'
-//import './styles.css'
+
+import styles from './styles.css'
+
 class TableHeader extends React.Component {
   render() {
     return (

@@ -2,7 +2,9 @@ import React from 'react'
 import PropTypes from '../../../../lib/PropTypes'
 import Photobox from './photobox.jsx'
 import BasicInfo from './basic_info.jsx'
-//import './style.import.css'
+
+import style from './style.css'
+
 const Overview = ({image, firstName, lastName, functie}) => (
   <div className="profile-overview">
     <Photobox image={image}/>
